@@ -13,7 +13,7 @@
 
 ## Link to the live site
 
-  https://bdibil.github.io/Portfolio/
+ https://bd-portfolio.herokuapp.com/
   
 
 ## Screenshot

@@ -6,8 +6,7 @@
   
 ## This site showcases some of my work and my background
   
--	It is built using [React](https://reactjs.org/).
-- 
+-	It is built using [React](https://reactjs.org/)
 
 
 ## Link to the live site

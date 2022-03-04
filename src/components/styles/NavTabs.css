@@ -1,0 +1,13 @@
+.nav {
+    background: #18435A;
+    height: 85px;
+
+  }
+  
+
+  .nav-item {
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px;
+    line-height: 3;
+  }

@@ -1,0 +1,15 @@
+.portStyle {
+  background: #7293A0;
+  height: 750px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+
+  }
+
+.listItem{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}

@@ -1,8 +1,21 @@
-.resStyle {
-  background: #7293A0;
-  height: 750px;
-  color: white;
-  text-align: center;
-
+ .resStyle {
+    background: #7293A0;
+    height: 80vh;
+    color: white;
+    text-align: center;
 
   }
+
+
+  @media screen and (max-width: 600px) {
+    .resStyle{
+        /* border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; */
+        height: 76vh;
+        width: 100vw;
+        /* margin: 0.5em auto;   */
+    }
+
+  }   

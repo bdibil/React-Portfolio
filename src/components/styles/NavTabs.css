@@ -11,3 +11,26 @@
     margin: 5px;
     line-height: 3;
   }
+
+
+  @media screen and (max-width: 600px) {
+    .nav{
+      /* background: chartreuse; */
+        /* border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; */
+        height: 16vh;
+        width: 100vw;
+        /* margin: 0.5em auto;   */
+    }
+
+    .nav-item {
+      font-size: 0.9rem;
+      text-decoration: none;
+      margin: 5px;
+      line-height: 3;
+    }
+
+
+  }

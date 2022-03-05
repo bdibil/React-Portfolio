@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
-import Header from "./components/Header.js";
 
+// import Header from "./components/Header.js";
 
 // import Section from "./components/Section";
 // import Navbar from "./components/Navbar";
@@ -16,14 +16,18 @@ function App() {
         <div>
            
            {/*  NEED TO MOVE THE HEADER, UNCOMMENT TO SHOW ABOVE NAVBAR*/}
+
+
             {/* <Header /> */}
 
+            <PortfolioContainer />
 
-            <PortfolioContainer />;
+
             {/* <Section /> */}
+
         </div>
-    );
+    )
 }
 
 
-export default App;
+export default App

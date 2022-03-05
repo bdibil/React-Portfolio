@@ -8,13 +8,13 @@ export default function About() {
       <h1>About Me</h1>
       <br></br>
       <p>
-        <h3>I am a Mechatronics Engineer experienced in SCADA, Industrial Automation and Control Systems</h3>
+        <h3 className="p1">I am a Mechatronics Engineer experienced in SCADA, Industrial Automation and Control Systems</h3>
       </p>
 
       <br></br>
 
       <p>
-        <h3>I am currently expanding my knowledgebase to include Full Stack Web Development</h3>
+        <h3 className="p1">I am currently expanding my knowledgebase to include Full Stack Web Development</h3>
       </p>
 
     </div>

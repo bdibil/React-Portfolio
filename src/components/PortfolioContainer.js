@@ -7,6 +7,18 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 
+const styles = {
+  footLinkStyle: {
+    // background: 'red',
+    padding: '5px',
+    paddingLeft: '15px',
+    paddingRight: '15px',
+    listStyleType: 'none',
+    textDecoration: 'none',
+    margin: '5px',
+    fontSize: '1.1rem'
+  },
+};
 
 
 export default function PortfolioContainer() {
@@ -36,11 +48,25 @@ export default function PortfolioContainer() {
       {renderPage()}
       <footer class="footer mt-auto py-4 bg-dark">
         <div class="container">
-          <span class="text-muted">Place sticky footer content here.</span>
+          <ul class="list-group list-group-horizontal justify-content-center">
+
+            <li style={styles.footLinkStyle} className="footLink text-primary">
+              <a href="#">LinkedIn</a>
+            </li>
+          
+            <li style={styles.footLinkStyle} className="footLink">
+              <a href="https://github.com/bdibil/" target="_blank" rel="noopener">Github</a>
+            </li>
+            
+            <li style={styles.footLinkStyle} className="footLink">
+              <a href="https://stackoverflow.com/users/17655603/b-dibil" target="_blank" rel="noopener">Stack Overflow</a>
+            </li>
+
+          </ul>
         </div>
       </footer>
 
     </div>
 
-  );
+  )
 }

@@ -1,6 +1,31 @@
 .aboutStyle {
     background: #7293A0;
-    height: 750px;
-    text-align: center;
+    height: 80vh;
     color: white;
+    text-align: center;
+
   }
+
+  .p1{
+    /* color: aqua; */
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .aboutStyle{
+        height: 76vh;
+        width: 100vw;
+        /* margin: 0.5em auto;   */
+    }
+    .p1{
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin: 10px;
+    }
+  
+
+  }     

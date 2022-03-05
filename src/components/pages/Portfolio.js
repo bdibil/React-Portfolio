@@ -6,7 +6,6 @@ export default function Portfolio() {
     <div className="portStyle">
       <br></br>
       <h1>My Work</h1>
-      <br></br>
       <ul className="listItem">
         <li>App 1</li>
         <li>App 2</li>

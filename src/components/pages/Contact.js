@@ -8,7 +8,7 @@ export default function Contact() {
       <h1>Contact Page</h1>
       <br></br>
 
-      <p>Contact info here</p>
+      <p>Work in progress</p>
     </div>
   );
 }

@@ -1,0 +1,59 @@
+.cardStyle {
+  width: 18vw;
+  max-height: 490px;
+  color: black;
+  padding: 15px;
+  margin: 15px;
+}
+
+ .cardTitle {
+  font-size: 1.1rem;
+ }
+
+ .cardText {
+  font-size: 0.9rem;
+ }
+
+
+ /* Tablet */
+ @media screen and (max-width: 850px) {
+
+  .cardStyle {
+    width: 25vw;
+    max-height: 330px;
+    color: black;
+    padding: 3px;
+    margin: 3px;
+  }
+
+   .cardTitle {
+    font-size: 0.7rem;
+   }
+
+   .cardText {
+    font-size: 0.5rem;
+   }
+
+ }
+
+
+ /* Smartphone */
+ @media screen and (max-width: 600px) {
+
+  .cardStyle {
+    width: 35vw;
+    max-height: 235px;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+  }
+
+   .cardTitle {
+    font-size: 0.4rem;
+   }
+
+   .cardText {
+    font-size: 0.4rem;
+   }
+
+ }

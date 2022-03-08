@@ -3,14 +3,16 @@ import '../styles/Portfolio.css'
 import Card from '../Card.js';
 import ArtSea from '../../assets/images/ArtSea.png';
 import ExcuseGen from '../../assets/images/excuse_gen.png';
-import App3 from '../../assets/images/image-3.png';
+import App3 from '../../assets/images/Team_gen.png';
+import App4 from '../../assets/images/day_plan.png';
+import App5 from '../../assets/images/e-comm.png';
+import App6 from '../../assets/images/JATE.png';
 
-// console.log(Test)
 
 const projects = [
   {
     name: 'ArtSea',
-    description: 'ArtSea - Art Scene of the Puget Sound',
+    description: 'Art Scene of the Puget Sound',
     gitLink: 'https://github.com/bdibil/PNW-ArtSea',
     LiveLink: 'https://artsea-2022.herokuapp.com/',
     imgSrc: ArtSea,
@@ -26,32 +28,43 @@ const projects = [
 
   },
   {
-    name: 'App 3',
-    description: 'Placeholder App 3',
-    gitLink: 'https://github.com/bdibil/',
+    name: 'Team Profile Generator',
+    description: 'CLI app that generates an index.html based on user input',
+    LiveLink: 'https://github.com/bdibil/Team-Profile-Generator',
+    gitLink: 'https://github.com/bdibil/Team-Profile-Generator',
     imgSrc: App3,
     imgH: '280',
   },
- 
+  {
+    name: 'Work Day Scheduler',
+    description: 'Dynamically updates HTML and CSS using JavaScript and jQuery',
+    LiveLink: 'https://bdibil.github.io/Work-Day-Scheduler/',
+    gitLink: 'https://github.com/bdibil/Work-Day-Scheduler',
+    imgSrc: App4,
+    imgH: '280',
+  },
+  {
+    name: ' E-Commerce Back End',
+    description: 'Back end architecture using Express.js, Sequelize, and a MySQL database',
+    gitLink: 'https://github.com/bdibil/E-Commerce-Back-End',
+    LiveLink: 'https://e-comm-bd.herokuapp.com/',
+    imgSrc: App5,
+    imgH: '280',
+  },
+  {
+    name: 'PWA Text Editor',
+    description: 'Single-page application that meets the PWA criteria and will function online or offline',
+    LiveLink: 'https://jate-bd.herokuapp.com/',
+    gitLink: 'https://github.com/bdibil/PWA-Text-Editor',
+    imgSrc: App6,
+    imgH: '280',
+  },
 
+ 
 ]
 
 
-const contStyle = {
-  padding: '10px',
-  display: 'flex',
-  flexWrap: 'wrap',
-  justifyContent: 'center',
-};
 
-const colStyle = {
-  // width: '10vw',
-  padding: '5px',
-  // margin: '5px',
-  // display: 'flex',
-  // flexWrap: 'wrap',
-  justifyContent: 'center',
-};
 
 export default function Portfolio() {
   return (
@@ -61,33 +74,10 @@ export default function Portfolio() {
 
       <div className="row row-cols-2 row-cols-md-3">
 
-      <div class="col" style={contStyle}>
-      <Card name={projects[0].name} description={projects[0].description} LiveLink={projects[0].LiveLink} gitLink={projects[0].gitLink} imgSrc={projects[0].imgSrc} imgW={projects[0].imgW} imgH={projects[0].imgH} />
-      </div>
-
-      <div class="col" style={contStyle}>
-      <Card name={projects[1].name} description={projects[1].description} LiveLink={projects[1].LiveLink} gitLink={projects[1].gitLink} imgSrc={projects[1].imgSrc}  imgH={projects[1].imgH} />
-      </div>
-
-      <div class="col" style={contStyle}>
-      <Card name={projects[2].name} description={projects[2].description} LiveLink={projects[2].LiveLink} gitLink={projects[2].gitLink} imgSrc={projects[2].imgSrc} imgH={projects[2].imgH}/>
-      </div>
+      {projects.map(project =>  <div class="col"><Card name={project.name} description={project.description} LiveLink={project.LiveLink} gitLink={project.gitLink} imgSrc={project.imgSrc} imgH={project.imgH} /></div>)}
 
 
-      
-      <div class="col" style={contStyle}>
-      <Card name={projects[0].name} description={projects[0].description} LiveLink={projects[0].LiveLink} gitLink={projects[0].gitLink} imgSrc={projects[0].imgSrc}/>
-      </div>
-
-      <div class="col" style={contStyle}>
-      <Card name={projects[1].name} description={projects[1].description} LiveLink={projects[1].LiveLink} gitLink={projects[1].gitLink} imgSrc={projects[1].imgSrc}/>
-      </div>
-
-      <div class="col" style={contStyle}>
-      <Card name={projects[2].name} description={projects[2].description} LiveLink={projects[2].LiveLink} gitLink={projects[2].gitLink} imgSrc={projects[2].imgSrc}/>
-      </div>
-
-   
+      {/* <div class="col" style={contStyle}><Card name={project.name} description={project.description} LiveLink={project.LiveLink} gitLink={project.gitLink} imgSrc={project.imgSrc} imgH={project.imgH} /></div> */}
 
      
     </div>

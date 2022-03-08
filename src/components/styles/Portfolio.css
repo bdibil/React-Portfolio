@@ -7,11 +7,34 @@
   }
 
 
+.col {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
+
+
+
    /* Tablet */
  @media screen and (max-width: 850px) {
   .portStyle {
     height: 80vh;
   }
+
+  .col {
+    padding: 5px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
  }
 
 
@@ -23,6 +46,18 @@
         /* margin: 0.5em auto;   */
     }
 
+
+    .col {
+      padding: 5px;
+      padding-top: 20px;
+      /* padding-bottom: 15px; */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+
+    
   }     
 
 

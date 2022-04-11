@@ -17,5 +17,3 @@
 ## Screenshot
 
   ![](./src/assets/images/screenshot.png)
-
-  

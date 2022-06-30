@@ -51,7 +51,7 @@ export default function PortfolioContainer() {
           <ul class="list-group list-group-horizontal justify-content-center">
 
             <li style={styles.footLinkStyle} className="footLink text-primary">
-              <a href="#">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/bernardodibildox/" target="_blank" rel="noopener">LinkedIn</a>
             </li>
           
             <li style={styles.footLinkStyle} className="footLink">

@@ -35,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -52,7 +52,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
+      </li> */}
     </ul>
       </section>
   );
